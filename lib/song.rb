@@ -31,12 +31,12 @@ class Song
       if genre_histogram[genre] == nil
         genre_histogram[genre] == 1
       else
-        genre_histogram += 1
+        genre_histogram[genre] += 1
       end
     genre_histogram
   end
 
   def self.artist_count
   end
-  
+
 end
