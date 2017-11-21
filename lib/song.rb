@@ -33,6 +33,7 @@ class Song
       else
         genre_histogram[genre] += 1
       end
+    end
     genre_histogram
   end
 
